@@ -1,0 +1,71 @@
+/* Conteneur principal de l'en-tête */
+.address-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 80%;
+  }
+  
+  /* Champ de filtre */
+  .filter-field {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  /* Bouton Add Address */
+  .add-button {
+    background-color: #00bcd4; /* Couleur turquoise */
+    color: white; /* Texte en blanc */
+    border-radius: 25px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    padding: 10px 20px; /* Espacement interne */
+    display: flex; /* Alignement du contenu */
+    align-items: center; /* Centrer verticalement */
+    text-transform: uppercase; /* Texte en majuscules */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animation */
+  }
+  
+  .add-button:hover {
+    background-color: #008c9e; /* Turquoise plus foncé */
+    transform: translateY(-2px); /* Effet de levée */
+  }
+  
+  /* Table stylée */
+  .table-container {
+    max-width: 80%;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .styled-table th {
+    background-color: #00bcd4; /* Bleu pour l'en-tête */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  .styled-table td {
+    padding: 10px;
+  }
+  
+  .no-data-row {
+    font-style: italic;
+    color: gray;
+  }
+  
+  /* Pagination */
+  .mat-paginator {
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  

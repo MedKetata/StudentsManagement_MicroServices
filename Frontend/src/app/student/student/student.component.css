@@ -1,0 +1,53 @@
+.elegant-button {
+    border-radius: 25px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    padding: 10px 20px; /* Espacement interne */
+    display: flex; /* Alignement du contenu du bouton */
+    align-items: center; /* Alignement vertical centré */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre élégante */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animation */
+  }
+  
+  .elegant-button:hover {
+    background-color: #4caf50; /* Vert clair survol */
+    transform: translateY(-2px); /* Effet de levée */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Accentuation de l'ombre */
+  }
+  
+  .elegant-button mat-icon {
+    font-size: 1.2rem; /* Taille de l'icône */
+  }
+  
+  .button-text {
+    font-family: 'Arial', sans-serif; /* Police du texte */
+    font-size: 1rem; /* Taille du texte */
+    letter-spacing: 1px; /* Espacement des lettres */
+  }
+
+  .turquoise-button {
+    background-color: #00bcd4; /* Même couleur que la barre supérieure */
+    color: white; /* Texte en blanc */
+    border-radius: 25px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    text-transform: uppercase; /* Texte en majuscules */
+    padding: 10px 20px; /* Espacement interne */
+    display: flex; /* Alignement pour inclure l'icône */
+    align-items: center; /* Centrer le contenu verticalement */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animation */
+  }
+  
+  .turquoise-button:hover {
+    background-color: #008c9e; /* Couleur légèrement plus sombre au survol */
+    transform: translateY(-2px); /* Effet de levée */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Accentuation de l'ombre */
+  }
+  
+  .turquoise-button mat-icon {
+    font-size: 1.2rem; /* Taille de l'icône */
+    margin-right: 8px; /* Espacement avec le texte */
+  }
+  

@@ -1,0 +1,55 @@
+/* Titre de la boîte de dialogue */
+.dialog-title {
+    text-align: center;
+    font-size: 1.8rem; /* Taille légèrement augmentée */
+    font-weight: bold;
+    color: #00bcd4;; /* Bleu principal */
+    margin-bottom: 20px; /* Espacement en bas */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Champs de formulaire */
+  .form-field {
+    width: 100%; /* Champs prennent toute la largeur */
+    margin-bottom: 15px; /* Espacement entre les champs */
+  }
+  
+  /* Actions dans la boîte de dialogue */
+  .dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; /* Espacement entre les boutons */
+  }
+  
+  /* Bouton Annuler */
+  .cancel-button {
+    background-color: #e57373; /* Rouge clair */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 25px; /* Coins arrondis */
+    text-transform: uppercase; /* Texte en majuscules */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .cancel-button:hover {
+    background-color: #d32f2f; /* Rouge plus foncé au survol */
+    transform: scale(1.05); /* Effet d'agrandissement */
+  }
+  
+  /* Bouton Soumettre */
+  .submit-button {
+    background-color: #19d228; /* Bleu principal */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px; /* Espacement interne */
+    border-radius: 25px; /* Coins arrondis */
+    text-transform: uppercase; /* Texte en majuscules */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #115293; /* Bleu plus foncé au survol */
+    transform: scale(1.05); /* Effet d'agrandissement */
+  }
+  

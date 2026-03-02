@@ -1,0 +1,123 @@
+/* Style global pour le nav */
+nav {
+    background-color: #1976d2; /* Couleur principale */
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Couleur du texte des boutons en mode par défaut */
+  button {
+    color: white;
+  }
+  
+  /* Toolbar pour alignement */
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  /* Titre de l'application */
+  .app-title {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.2rem; /* Agrandissement du titre */
+  }
+  
+  /* Conteneur des boutons */
+  .nav-buttons {
+    display: flex;
+    gap: 10px; /* Espacement entre les boutons */
+  }
+  
+  /* Style des boutons */
+  .nav-buttons button {
+    background-color: #ffffff; /* Couleur de fond */
+    color: #1976d2; /* Texte en bleu */
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid #ffffff; /* Bordure blanche */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 8px 16px; /* Padding pour agrandir le bouton */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Légère ombre */
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Transitions douces */
+  }
+  
+  /* Effet de survol */
+  .nav-buttons button:hover {
+    background-color: #1976d2; /* Fond bleu */
+    color: #ffffff; /* Texte blanc */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée */
+    cursor: pointer;
+  }
+  
+  /* Effet lors du clic */
+  .nav-buttons button:active {
+    background-color: #0d47a1; /* Bleu plus foncé */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre réduite */
+    transform: scale(0.98); /* Légère réduction de taille */
+  }
+  
+
+  .toolbar {
+    background-color: #00bcd4; /* Couleur vive */
+    color: white;
+    padding: 10px;
+  }
+  
+  .app-title {
+    font-size: 1.8rem; /* Taille du texte du titre */
+    font-weight: bold;
+    font-family: 'Arial', sans-serif; /* Police personnalisée */
+  }
+  
+  .nav-buttons button {
+    border-radius: 20px; /* Coins arrondis */
+    font-weight: bold; /* Texte en gras */
+    font-size: 1rem; /* Taille du texte */
+    text-transform: uppercase; /* Texte en majuscules */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-buttons button:hover {
+    background-color: white;
+    color: #00bcd4;
+  }
+  
+  .nav-buttons mat-icon {
+    font-size: 1.2rem; /* Taille de l'icône */
+    vertical-align: middle; /* Alignement vertical */
+  }
+  
+  .button-text {
+    font-family: 'Verdana', sans-serif; /* Police du texte */
+    margin-left: 5px; /* Espacement entre l'icône et le texte */
+  }
+/* Style par défaut pour les boutons */
+.custom-button {
+  background-color: #00bcd4; /* Couleur turquoise de la barre */
+  color: white; /* Texte en blanc */
+  border: none; /* Pas de bordure */
+  border-radius: 25px; /* Coins arrondis */
+  padding: 10px 20px; /* Espacement interne */
+  font-size: 1rem; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  text-transform: uppercase; /* Texte en majuscules */
+  display: flex; /* Alignement du contenu */
+  align-items: center; /* Centrer verticalement */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition douce */
+}
+
+/* Au survol : changer le fond et la couleur du texte */
+.custom-button:hover {
+  background-color: white; /* Fond blanc */
+  color: #00bcd4; /* Texte turquoise */
+}
+
+/* Style des icônes */
+.custom-button mat-icon {
+  font-size: 1.2rem; /* Taille des icônes */
+  margin-right: 8px; /* Espacement entre l'icône et le texte */
+}
+  

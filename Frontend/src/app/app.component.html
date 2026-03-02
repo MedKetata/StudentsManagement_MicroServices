@@ -1,0 +1,21 @@
+<nav mat-toolbar class="toolbar" style="background-color: #00bcd4; color: white;">
+  <div class="d-flex justify-content-between align-items-center w-100">
+    <!-- Nom significatif de l'application -->
+    <span class="app-title font-weight-bold">Student Management System</span>
+
+    <!-- Boutons de navigation avec icônes -->
+    <div class="nav-buttons">
+      <button mat-button routerLink="/student" class="custom-button mx-2">
+        <mat-icon class="mr-2">school</mat-icon> <!-- Icône pour "Student" -->
+        <span class="button-text">Student</span>
+      </button>
+      <button mat-button routerLink="/address" class="custom-button mx-2">
+        <mat-icon class="mr-2">home</mat-icon> <!-- Icône pour "Address" -->
+        <span class="button-text">Address</span>
+      </button>
+    </div>
+    
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
